@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "**", allowedHeaders = "**")
 @RestController
 @RequestMapping(value = "person")
 public class PersonController {
